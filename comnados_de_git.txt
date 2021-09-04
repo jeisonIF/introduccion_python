@@ -1,0 +1,7 @@
+Iniciamos por promera vez:
+
+    ¬ git init      => Inicia un proyecto de git en la carpeta actual.
+    ¬ git status    => Muestra el estado actual del repositorio.
+    ¬ git add .     => Agrega todos los cambios.
+    ¬ 
+Cuando el proyecto esta creado:
