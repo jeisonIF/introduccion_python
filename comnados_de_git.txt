@@ -1,7 +1,25 @@
 Iniciamos por promera vez:
 
     ¬ git init      => Inicia un proyecto de git en la carpeta actual.
-    ¬ git status    => Muestra el estado actual del repositorio.
+    ¬ git status    => (Opcional)Muestra el estado actual del repositorio.
     ¬ git add .     => Agrega todos los cambios.
-    ¬ 
+    ¬ git commit -m 'Iniciando repositorio.'
+    ¬ git branch -M main 
+    ¬ git remote add origin https://github.com/jeisonIF/introduccion_python.git  
+    ¬ git push -u origin main 
 Cuando el proyecto esta creado:
+    ¬   git add .
+    ¬   git commit -m 'Iniciando repositorio.'
+    ¬   git push
+    ¬
+
+
+/// validar que este en https
+PS F:\python io\introduccion_python> git remote -v
+origin  git@github.com:jeisonIF/introduccion_python.git (fetch)
+origin  git@github.com:jeisonIF/introduccion_python.git (push)
+PS F:\python io\introduccion_python> git remote rm origin
+PS F:\python io\introduccion_python> git remote -v       
+PS F:\python io\introduccion_python> git remote add origin https://github.com/jeisonIF/introduccion_python.git
+PS F:\python io\introduccion_python> git push -u origin main
+info: please complete authentication in your browser...
