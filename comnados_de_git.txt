@@ -12,6 +12,8 @@ Cuando el proyecto esta creado:
     ¬   git commit -m 'Iniciando repositorio.'
     ¬   git push
     ¬
+Como clonar un repositorio.
+    ¬   git clone https://github.com/jeisonIF/introduccion_python.git  
 
 
 /// validar que este en https
